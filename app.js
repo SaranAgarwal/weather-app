@@ -20,7 +20,7 @@ function getResults (query) {
 }
 
 function changeBg (e) {
-    if(e == 'Haze') {
+    if(e == 'Haze' || e == 'Fog' || e == 'Mist') {
         document.body.style.backgroundImage = "url('haze.jpg')";
     }
     else if(e == 'Clouds') {
